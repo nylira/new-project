@@ -1,3 +1,3 @@
-let hello = "Hello, world!"
+let square(x) x * x
 
-console.log hello
+console.log square 4

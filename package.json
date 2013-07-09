@@ -8,6 +8,8 @@
     "grunt-contrib-stylus": "~0.5.1",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-watch": "~0.4.4",
-    "grunt-gorilla": "~0.1.6"
+    "grunt-gorilla": "~0.1.6",
+    "LiveScript": "~1.1.1",
+    "grunt-livescript": "~0.5.0"
   }
 }

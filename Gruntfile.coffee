@@ -19,6 +19,7 @@ module.exports = (grunt) ->
       lib:
         files:
           'lib/js/app.min.js': ['lib/js/gorilla.js', 'lib/js/livescript.js']
+          'lib/js/vendor.min.js': ['vendor/js/**/*.js']
 
     stylus:
       lib:

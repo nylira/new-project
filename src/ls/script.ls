@@ -1,8 +1,5 @@
 /*jshint -W018 */
 /*jshint -W030 */
-
-{empty, reverse} = require 'prelude-ls'
-
 'use strict'
 
 take = (n, [x, ...xs]:list) -->
@@ -22,3 +19,5 @@ last-three [1 to 8] #=> [6, 7, 8]
 console.log last-three [1 to 8] #=> [6, 7, 8]
 
 $('h1').hide()
+
+

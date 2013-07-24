@@ -8,6 +8,9 @@ module.exports = (grunt) ->
       lib:
         files:
           'lib/js/livescript.js': ['src/ls/*.ls']
+        options:
+          prelude: true
+          const: true
 
     jshint:
       files: ['lib/js/livescript.js']

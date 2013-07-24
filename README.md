@@ -1,3 +1,3 @@
 # new-project
 
-Boilerplate.
+Boilerplate for a livescript/stylus project.

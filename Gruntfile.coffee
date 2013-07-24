@@ -1,4 +1,5 @@
 module.exports = (grunt) ->
+  'use strict'
 
   grunt.initConfig(
     pkg: grunt.file.readJSON('package.json')
@@ -33,7 +34,7 @@ module.exports = (grunt) ->
           'lib/css/screen.css': ['src/styl/screen.styl']
 
     watch:
-      files: ['src/gs/*.gs', 'src/ls/*.ls','src/styl/screen.styl']
+      files: ['src/ls/*.ls','src/styl/screen.styl']
       tasks: ['livescript', 'jshint', 'uglify', 'stylus']
   )
 

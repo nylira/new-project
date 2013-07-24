@@ -1,5 +1,7 @@
-{empty, reverse} = require 'prelude-ls'
+#{empty, reverse} = require 'prelude-ls'
 
+/*jshint -W018 */
+/*jshint -W030 */
 
 take = (n, [x, ...xs]:list) -->
   | n <= 0     => []

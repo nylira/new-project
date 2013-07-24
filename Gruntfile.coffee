@@ -10,6 +10,15 @@ module.exports = (grunt) ->
 
     jshint:
       files: ['lib/js/livescript.js']
+      options:
+        globals:
+          jQuery: true
+          console: true
+          browser: true
+          node: true
+          undef: true
+          eqeqeq: true
+          noarg: true
 
     uglify: 
       options: 
